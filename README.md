@@ -9,13 +9,13 @@
 
 **Chapel Hill Arrest Data Visualizer** is an interactive map tool built in Python using Pandas and Folium. The application pulls public arrest records from the Town of Chapel Hill, cleans and standardizes the dataset, and visualizes arrest patterns across the town through clickable map markers and density heatmaps.
 
-Built as a foundational first Python project, this tool was created to explore core data analysis workflows: loading cloud-hosted spreadsheet data, cleaning real-world inconsistencies, fixing coordinate anomalies, and rendering geospatial data on interactive web maps.
+Built as a foundational first Python project, this tool was created to explore core data analysis workflows: reading online spreadsheet data via CSV URLs, cleaning real-world inconsistencies, fixing coordinate anomalies, and rendering geospatial data on interactive web maps.
 
 ---
 
 ## Key Features
 
-- **Direct Cloud Data Ingestion**: Loads public arrest records directly from a Google Sheet via Pandas CSV export without requiring manual file downloads.
+- **Online Spreadsheet Integration**: Fetches arrest data directly from a public Google Sheets CSV export link into a Pandas DataFrame.
 - **Data Cleaning & Standardization**: Cleans missing values, converts text `<Null>` entries into true nulls, and translates abbreviated police codes into clear labels.
 - **Coordinate Bug Fix**: Automatically detects and fixes a data entry issue in the municipal database where Latitude and Longitude were swapped for recent arrests (which mistakenly placed points in Antarctica).
 - **Recent Arrest Filtering (2021–Present)**: Filters the 40,000+ historical records down to ~4,800 recent arrests, keeping the analysis focused on recent trends and preventing browser lag.
