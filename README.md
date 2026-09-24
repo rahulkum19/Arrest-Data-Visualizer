@@ -125,17 +125,17 @@ As an early Python project, several design limitations were valuable learning op
    - The visualization only compares one selected value against all others (binary comparison). It does not currently support color-coding all four racial groups or multiple charge types at the same time with a multi-color legend.
 3. **Reliance on Global Variables**:
    - The `arrest_map` function accesses the global `df` variable directly rather than taking the dataframe as a parameter, which limits modularity.
-4. **Code-Based Querying**:
+4. **Code-Based Filtering**:
    - Filters must be changed by editing the function call in Python rather than through interactive UI controls like dropdown menus or date sliders.
 
 ---
 
 ## Future Enhancements
 
-- [ ] **Marker Clustering**: Implement `folium.plugins.FastMarkerCluster` to allow mapping all 40,000+ historical records without browser performance drops.
-- [ ] **Interactive Web UI**: Convert the notebook into a **Streamlit** dashboard with interactive dropdowns, charge category filters, and date range sliders.
-- [ ] **Time-of-Day Analysis**: Add charts showing peak arrest hours (e.g., weekend night hours vs. daytime activity).
-- [ ] **Multi-Color Legend**: Update the mapping logic to support a full categorical color legend for all demographic groups simultaneously.
+-  **Marker Clustering**: Implement `folium.plugins.FastMarkerCluster` to allow mapping all 40,000+ historical records without browser performance drops.
+-  **Interactive Web UI**: Convert the notebook into a **Streamlit** dashboard with interactive dropdowns, charge category filters, and date range sliders.
+-  **Time-of-Day Analysis**: Add charts showing peak arrest hours (e.g., weekend night hours vs. daytime activity).
+-  **Multi-Color Legend**: Update the mapping logic to support a full categorical color legend for all demographic groups simultaneously.
 
 ---
 
