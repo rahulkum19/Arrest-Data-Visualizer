@@ -54,7 +54,7 @@ The map function combines several Leaflet and Folium layers into a single view:
 | **Tiles** | `folium.TileLayer` | Uses OpenStreetMap with a custom referrer policy to prevent HTTP 403 Forbidden errors. |
 | **Markers** | `folium.Circle` | Plots each arrest with custom colors, age-based radius sizing, and HTML tooltips. |
 | **Heatmap** | `folium.plugins.HeatMap` | Extracts the latitude and longitude of the target group to draw a density heatmap. |
-| **Layer Control** | `folium.LayerControl` | Positioned at `bottomleft` so notebook controls do not cover the toggle checkboxes. |
+| **Layer Control** | `folium.LayerControl` | Positioned at `topright` so notebook controls do not cover the toggle checkboxes. |
 
 ---
 
