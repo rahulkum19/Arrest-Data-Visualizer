@@ -29,7 +29,7 @@ Built as a foundational first Python project, this tool was created to explore c
 
 ## Data Cleaning Pipeline
 
-Real-world public data often contains formatting errors and missing values. The script processes the raw data through four main steps before mapping:
+Real-world public data often contains formatting errors and missing values. The data passes through four main steps before mapping:
 
 1. **Missing Data Handling**: Reads the dataset with `low_memory=False` and flags `<Null>` strings as actual `NaN` values so incomplete rows are dropped cleanly.
 2. **Coordinate Correction**:
