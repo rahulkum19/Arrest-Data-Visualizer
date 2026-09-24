@@ -107,7 +107,7 @@ arrest_map(column_name, target_value, target_color, baseline_color)
 
 | Analysis Focus | Column | Target Value | Function Call |
 | :--- | :--- | :--- | :--- |
-| **Racial Disparity** | `Race` | `'Black'` | `arrest_map('Race', 'Black', 'cyan', 'black')` |
+| **Racial Disparity** | `Race` | `'Asian'` | `arrest_map('Race', 'Asian', 'cyan', 'black')` |
 | **Substance Involvement** | `Drugs_or_Alcohol_Present` | `'Yes'` | `arrest_map('Drugs_or_Alcohol_Present', 'Yes', 'red', 'green')` |
 | **Gender Distribution** | `Gender` | `'Female'` | `arrest_map('Gender', 'Female', 'purple', 'gray')` |
 | **Arrest Type** | `Type_of_Arrest` | `'ON VIEW'` | `arrest_map('Type_of_Arrest', 'ON VIEW', 'orange', 'navy')` |
