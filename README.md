@@ -50,7 +50,7 @@ The map function combines several Leaflet and Folium layers into a single view:
 
 | Component | Tool / Class | Description |
 | :--- | :--- | :--- |
-| **Base Map** | `folium.Map` | Centers the view over the mean coordinates of Chapel Hill at zoom level 12. |
+| **Base Map** | `folium.Map` | Centers the view over the mean coordinates of Chapel Hill at zoom level 13.5. |
 | **Tiles** | `folium.TileLayer` | Uses OpenStreetMap with a custom referrer policy to prevent HTTP 403 Forbidden errors. |
 | **Markers** | `folium.Circle` | Plots each arrest with custom colors, age-based radius sizing, and HTML tooltips. |
 | **Heatmap** | `folium.plugins.HeatMap` | Extracts the latitude and longitude of the target group to draw a density heatmap. |
