@@ -95,7 +95,7 @@ Open and run `arrest_analysis.ipynb` in your preferred notebook environment:
 
 ---
 
-## Usage & Example Queries
+## Usage & Examples
 
 The `arrest_map` function takes four parameters:
 
